@@ -68,6 +68,7 @@ class Model: NSObject {
         return Bundle.main.path(forResource: "data", ofType: "xml")!
         
     }
+    
     var urlForXML: URL{
         return URL(fileURLWithPath: pathForXML)
     }
